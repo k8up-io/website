@@ -1,8 +1,8 @@
 ######################## custom scripts & styles ####################
 
 # Add custom assets relative to /static or via https
-logo_on_white: "/img/logo-b.svg"
-logo_on_black: "/img/logo-w.svg"
+logo_on_white: "images/k8up-logo.svg"
+logo_on_black: "images/k8up-logo-white-text.svg"
 custom_js: []
 custom_css: []
 
@@ -12,22 +12,22 @@ custom_css: []
 images: ["/img/social-share.png"]
 
 github:
-  repo_url: "https://github.com/username/repo/blob/master"
+  repo_url: "https://github.com/k8up-io/website"
   show_edit_link: true
 
 social_links:
-  devstats: ""
+  devstats: "https://k8up.devstats.cncf.io/"
   discord: ""
   facebook: ""
   flickr: ""
-  github: "https://github.com/cncf/dot-org-hugo-theme"
+  github: "https://github.com/k8up-io/k8up"
   instagram: ""
   landscape: ""
-  linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation"
-  mastodon: ""
+  linkedin: ""
+  mastodon: "https://mastodon.vshn.social/@k8up"
   pinterest: ""
   rss: ""
-  slack: ""
+  slack: "https://app.slack.com/client/T08PSQ7BQ/C06GP0D5FEF"
   stackoverflow: ""
   threads: ""
   twitter: ""
@@ -37,4 +37,4 @@ social_links:
 # Makes the header sticky on tall screens
 sticky_header: true
 # Enable search in header UI
-show_search: true
+show_search: false
