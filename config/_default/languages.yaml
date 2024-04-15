@@ -7,7 +7,7 @@ en:
   params:
     main_cta:
       text: "Getting Started"
-      link: "https://k8up.io/k8up/2.8/tutorials/tutorial.html"
+      link: "https://docs.k8up.io/k8up/tutorials/tutorial.html"
     footer_cta:
       text: "GitHub"
       link: "https://github.com/k8up-io/"
