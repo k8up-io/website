@@ -14,7 +14,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-  defaults:
+defaults:
   run:
     shell: bash
 
