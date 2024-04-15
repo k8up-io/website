@@ -9,7 +9,7 @@ custom_css: []
 ######################## custom config ####################
 
 ### default social share image (can also be set per lang) ###
-images: ["/img/social-share.png"]
+images: ["/images/social-share.png"]
 
 github:
   repo_url: "https://github.com/k8up-io/website"
