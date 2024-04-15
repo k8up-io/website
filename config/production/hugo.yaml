@@ -1,5 +1,5 @@
 baseURL: https://k8up.io/
-googleAnalytics:
+googleAnalytics: UA-54393406-7
 enableRobotsTXT: true
 build:
   writeStats: true
