@@ -66,7 +66,7 @@ It allows cluster operators to:
 K8up is:
 
 * Stable and production ready since 2019.
-* Based on top of [Restic(https://restic.readthedocs.io/)], it can store backups in any S3-compatible storage, such as Amazon S3 or [Minio](https://github.com/minio/minio).
+* Based on top of [Restic](https://restic.readthedocs.io/), it can store backups in any S3-compatible storage, such as Amazon S3 or [Minio](https://github.com/minio/minio).
 * Written in [Go](https://golang.org/).
 * A [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) Open Source project, [hosted at GitHub](https://github.com/k8up-io/k8up).
 {{< /column >}}
