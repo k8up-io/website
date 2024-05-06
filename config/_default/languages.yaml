@@ -53,5 +53,5 @@ en:
         weight: 3
       - identifier: "roadmap"
         name: "Roadmap"
-        url: "https://github.com/k8up-io/k8up/milestones"
+        url: "https://github.com/orgs/k8up-io/projects/2"
         weight: 4
