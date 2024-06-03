@@ -41,7 +41,7 @@ Regularly creation of data archivals to long term storage
 {{< /card >}}
 
 {{< card >}}
-## Mulitple Backup Targets
+## Multiple Backup Targets
 Restic is used under the hood, support S3, SFTP, Rest, Local and many other targets
 {{< /card >}}
 
