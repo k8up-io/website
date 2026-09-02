@@ -12,7 +12,10 @@ custom_css: []
 images: ["/images/social-share.png"]
 
 github:
-  repo_url: "https://github.com/k8up-io/website"
+  # Carries /blob/<branch> on purpose: the theme builds the edit link as
+  # `<repo_url>/content/<lang>/<page>` and adds no ref of its own, so without
+  # it GitHub has nothing to resolve and every "Edit this page" link 404s.
+  repo_url: "https://github.com/k8up-io/website/blob/main"
   show_edit_link: true
 
 social_links:
@@ -24,7 +27,9 @@ social_links:
   instagram: ""
   landscape: ""
   linkedin: ""
-  mastodon: "https://mastodon.vshn.social/@k8up"
+  # Empty until a K8up account exists. mastodon.vshn.social/@k8up 404s:
+  # the instance has no such local account, so the icon linked nowhere.
+  mastodon: ""
   pinterest: ""
   rss: ""
   slack: "https://app.slack.com/client/T08PSQ7BQ/C06GP0D5FEF"
