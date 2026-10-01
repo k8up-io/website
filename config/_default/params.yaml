@@ -4,9 +4,16 @@
 logo_on_white: "images/k8up-logo.svg"
 logo_on_black: "images/k8up-logo-white-text.svg"
 custom_js: []
-custom_css: []
+custom_css: ["css/announcement.css"]
 
 ######################## custom config ####################
+
+# Announcement banner, shown above the header on the homepage only.
+announcement:
+  enabled: true
+  text: "Join us at KubeCon + CloudNativeCon North America on Nov 9-12 🎉"
+  link_text: "Register Today!"
+  link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/?utm_source=k8up&utm_medium=ribbon-banner&utm_campaign=KubeCon-CloudNativeCon-NA-2026&utm_content=hero"
 
 ### default social share image (can also be set per lang) ###
 images: ["/images/social-share.png"]
