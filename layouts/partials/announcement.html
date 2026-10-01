@@ -1,0 +1,13 @@
+{{ if .IsHome }} {{ with .Site.Params.announcement }} {{ if and .enabled .text
+}}
+<aside class="announcement" role="region" aria-label="Announcement">
+  <div class="container wrap">
+    <span class="announcement__text">{{ .text }}</span>
+    {{ with .link }}
+    <a class="announcement__link" href="{{ . }}"
+      >{{ $.Site.Params.announcement.link_text | default "Learn more" }}</a
+    >
+    {{ end }}
+  </div>
+</aside>
+{{ end }} {{ end }} {{ end }}
